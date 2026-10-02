@@ -9,8 +9,19 @@ curl https://sh.rustup.rs -sSf | sh
 
 ``` bash
 cargo new geometry-rust
+
 cargo run
+
 cargo build # debug
 cargo build --release # release
+
+// Format code
 rustfmt
+cargo fmt
+
+// Find memory leak
+cargo clippy
+
+// Run test 
+cargo test
 ```
